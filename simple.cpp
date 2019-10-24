@@ -15,14 +15,13 @@ float time = 0.0;
 	cin >> principal;
 	cout << "Thank you, now enter the Interest rate at the prompt" << endl;
 	cin >> rate;
-	cout << "Enter the time in years" << endl;
+	cout << "Enter the time in years to repay" << endl;
 	cin >> time;
 	
 	float answer = principal * rate * time;
 	cout << "Thanks, your answer is: " << answer << endl;
 	
-	//cout << answer << endl;
-
+	/*Plan is to make this into a GUI application in a couple of months*/
 
 
 
